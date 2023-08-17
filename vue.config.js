@@ -1,5 +1,8 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
 	transpileDependencies: true,
-	publicPath: "/dist/",
+
+	outputDir: "../dist",
+	assetsDir: "media",
+	indexPath: "index.html",
 });
